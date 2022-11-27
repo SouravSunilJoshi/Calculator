@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Heebo&family=Josefin+Sans&family=Noto+Sans&family=Oswald&family=Poppins&family=Roboto&family=Rubik&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.containers{
+    display: block;
+    background-color: #010100;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.container {
+    display: block;
+    background-color: #010100;
+    min-height: 100vh;
+}
+
+h1,h2,h3,p{
+    color: #FEFFFE;
+}
+
+
+/* button  */
+
+.button{
+    margin-top: 10px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-size: 24px;
+    border: none;
+    outline: none;
+}
+
+.buttona{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    font-size: 24px;
+    border: none;
+    outline: none; 
+    margin: 0 20px;
+    caret-color: transparent;
+}
+
+.icons{
+    font-size: 55px;
+}
+
+.button:focus{
+    border: none;
+    outline: none;
+}
+
+
+.button.nums{
+    background-color: #313131;
+    color: #FEFFFE;
+}
+
+.fun{
+    background-color: #F79907;
+    color: #FEFFFE;
+}
+
+.funa{
+    background-color: #010100;
+    color: #FEFFFE;
+}
+.funa:hover{
+    background-color: #F79907;
+    color: #FEFFFE;
+}
+
+.button.rear{
+    background-color: #A1A1A0;
+}
+
+.clear{
+    font-size: 24px;
+    background-color: #F79907;
+    color: #FEFFFE;
+    width: 150px;
+    height: 60px;
+    border-radius: 35px;
+}
+
+/* input */
+.inputstr{
+    background-color: black;
+    border: none;
+    color: #FEFFFE;
+    width: 235px;
+    height: 100px;
+    margin: 20px 0;
+    font-size: 36px;
+    outline: none;
+    text-align: right;
+    caret-color: transparent;
+}
+
+.input , .inputans{
+    background-color: #010100;
+    font-size: 28px;
+    outline: none;
+    border: none;
+    text-align: left;
+    color: #FEFFFE;
+    height: 50px;
+    width: 175px;
+    margin-left: 35px;
+}
+
+.input2{
+    background-color: #010100;
+    font-size: 28px;
+    outline: none;
+    border: none;
+    text-align: left;
+    color: #FEFFFE;
+    height: 50px;
+    width: 200px;
+    margin-left: 35px;    
+}
+
+/* dropdown  */
+.dropdown{
+    margin: 10px 0;
+}
+
+.btn{
+    color: #FEFFFE;
+    font-size: 24px;
+}
+
+select{
+    background-color: #010100;
+    color: #FEFFFE;
+    outline: none;
+    border: none;
+    font-size: 28px;
+}
+option{
+    background-color: #1D1C1E;
+    color: #FEFFFE;
+    outline: none;
+    border: none;
+    
+}
+
+/* back */
+.back{
+    text-align: left;
+    margin-right: 225px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/* clock */
+.clock{
+    font-size: 24px;
+    color: #FEFFFE;
+}
+
+#percentage{
+    width: 300px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .input , .inputans{
+        margin-left: 0;
+    }
+    body{
+        background-color: #010100;
+    }
+  }
